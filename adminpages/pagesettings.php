@@ -123,13 +123,13 @@
 			if($pmpro_pages_ready)
 			{
 			?>
-				<p><?php _e('Manage the WordPress pages assigned to each required Paid Memberships Pro page.', 'pmpro');?></p>
+				<p><?php _e('Manage the WordPress pages assigned to each required Paid Subscriptions page.', 'pmpro');?></p>
 			<?php
 			} 
 			else 
 			{ 
 			?>
-				<p><?php _e('Assign the WordPress pages for each required Paid Memberships Pro page or', 'pmpro');?> <a href="?page=pmpro-pagesettings&createpages=1"><?php _e('click here to let us generate them for you', 'pmpro');?></a>.</p>
+				<p><?php _e('Assign the WordPress pages for each required Paid Subscriptions page or', 'pmpro');?> <a href="?page=pmpro-pagesettings&createpages=1"><?php _e('click here to let us generate them for you', 'pmpro');?></a>.</p>
 			<?php
 			}
 		?>       			        

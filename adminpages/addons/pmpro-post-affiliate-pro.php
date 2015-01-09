@@ -16,7 +16,7 @@ function pmpro_addon_pmpro_post_affiliate_pro_widget($addon)
 ?>
 <img class="addon-thumb" src="<?php echo PMPRO_URL?>/adminpages/addons/images/pmpro-post-affiliate-pro.jpg" />
 <div class="info">							
-	<p>Integrate Paid Memberships Pro with the Post Affiliate Pro platform.</p>
+	<p>Integrate Paid Subscriptions with the Post Affiliate Pro platform.</p>
 	<div class="actions">							
 		<?php if($addon['enabled']) { ?>
 			<a href="https://github.com/strangerstudios/pmpro-post-affiliate-pro/blob/master/readme.txt" class="button">Enabled</a>

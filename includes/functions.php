@@ -13,7 +13,7 @@
 	You can also create a custom plugin to place customization code into. Instructions are here:
 	http://www.paidmembershipspro.com/2012/08/create-a-plugin-for-pmpro-customizations/
 	
-	Further documentation for customizing Paid Memberships Pro can be found here:
+	Further documentation for customizing Paid Subscriptions can be found here:
 	http://www.paidmembershipspro.com/documentation/
 
 ****************************************************************/

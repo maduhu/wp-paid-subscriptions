@@ -39,12 +39,12 @@ function pmpro_notifications()
 add_action('wp_ajax_pmpro_notifications', 'pmpro_notifications');	
 
 /*
-	Show Powered by Paid Memberships Pro comment (only visible in source) in the footer.
+	Show Powered by Paid Subscriptions comment (only visible in source) in the footer.
 */
 function pmpro_link()
 {
 ?>
-Memberships powered by Paid Memberships Pro v<?php echo PMPRO_VERSION?>.
+Memberships powered by Paid Subscriptions v<?php echo PMPRO_VERSION?>.
 <?php
 }
 function pmpro_footer_link()

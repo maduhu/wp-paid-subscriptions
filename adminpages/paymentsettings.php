@@ -145,7 +145,7 @@
 	<form action="" method="post" enctype="multipart/form-data">         
 		<h2><?php _e('Payment Gateway', 'pmpro');?> &amp; <?php _e('SSL Settings', 'pmpro');?></h2>
 		
-		<p><?php _e('Learn more about <a title="Paid Memberships Pro - SSL Settings" target="_blank" href="http://www.paidmembershipspro.com/support/initial-plugin-setup/ssl/">SSL</a> or <a title="Paid Memberships Pro - Payment Gateway Settings" target="_blank" href="http://www.paidmembershipspro.com/support/initial-plugin-setup/payment-gateway/">Payment Gateway Settings</a>.', 'pmpro'); ?></p>
+		<p><?php _e('Learn more about <a title="Paid Subscriptions - SSL Settings" target="_blank" href="http://www.paidmembershipspro.com/support/initial-plugin-setup/ssl/">SSL</a> or <a title="Paid Subscriptions - Payment Gateway Settings" target="_blank" href="http://www.paidmembershipspro.com/support/initial-plugin-setup/payment-gateway/">Payment Gateway Settings</a>.', 'pmpro'); ?></p>
 		
 		<table class="form-table">
 		<tbody>                		   
@@ -171,7 +171,7 @@
 			</tr>
 			<tr class="gateway gateway_cybersource gateway_twocheckout" <?php if($gateway != "cybersource" && $gateway != "twocheckout") { ?>style="display: none;"<?php } ?>>
 				<td colspan="2">
-					<strong><?php _e('Note', 'pmpro');?>:</strong> <?php _e('This gateway option is in beta. Some functionality may not be available. Please contact Paid Memberships Pro with any issues you run into. <strong>Please be sure to upgrade Paid Memberships Pro to the latest versions when available.</strong>', 'pmpro');?>
+					<strong><?php _e('Note', 'pmpro');?>:</strong> <?php _e('This gateway option is in beta. Some functionality may not be available. Please contact Paid Subscriptions with any issues you run into. <strong>Please be sure to upgrade Paid Subscriptions to the latest versions when available.</strong>', 'pmpro');?>
 				</td>	
 			</tr>
 			<tr class="gateway gateway_paypalstandard" <?php if($gateway != "paypalstandard") { ?>style="display: none;"<?php } ?>>

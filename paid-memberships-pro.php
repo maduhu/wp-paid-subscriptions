@@ -1,16 +1,33 @@
 <?php
 /*
-Plugin Name: Paid Memberships Pro
-Plugin URI: http://www.paidmembershipspro.com
-Description: Plugin to Handle Memberships
+Plugin Name: Paid Subscriptions
+Plugin URI: https://github.com/Seravo/wp-paid-subscriptions
+Description: Pluggable Plugin to Handle Memberships
 Version: 1.7.15.2
-Author: Stranger Studios
-Author URI: http://www.strangerstudios.com
+Author: Onni Hakala / Seravo Oy
+Author URI: http://seravo.fi
+License: GPLv2
 */
 /*
 	Copyright 2011	Stranger Studios	(email : jason@strangerstudios.com)
-	GPLv2 Full license details in license.txt
+	Copyright 2015	Seravo Oy	(email : onni@seravo.fi)
+
+	Please read the LICENSE for full details, but what this means in practice is that you may install this plugin on any site for personal or commercial use.
+	You may redistribute this plugin any way you choose as long as you maintain the GPLv2 license.
+	If you distribute an altered version of this code, we ask that you:
+
+	1. Give your software a name other than "Paid Subscriptions", "Paid Memberships Pro" or "PMPro" to avoid confusion.
+	2. Notify us of your distributed version so we can potentially promote the distribution if it's a good effort.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
 
 //version constant
 define("PMPRO_VERSION", "1.7.15.2");
