@@ -1,0 +1,9 @@
+{
+    "name": "seravo/paid-subscriptions",
+    "type": "wordpress-plugin",
+    "description": "Easy way for ask money from your subscribers. This is fork from https://github.com/strangerstudios/paid-memberships-pro with idea to make it more modern and pluggable.",
+    "authors": {
+        "name": "Onni Hakala / Seravo Oy"
+    },
+    "minimum-stability": "dev"
+}
