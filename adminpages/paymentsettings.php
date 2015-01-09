@@ -145,7 +145,7 @@
 	<form action="" method="post" enctype="multipart/form-data">         
 		<h2><?php _e('Payment Gateway', 'pmpro');?> &amp; <?php _e('SSL Settings', 'pmpro');?></h2>
 		
-		<p><?php _e('Learn more about <a title="Paid Subscriptions - SSL Settings" target="_blank" href="http://www.paidmembershipspro.com/support/initial-plugin-setup/ssl/">SSL</a> or <a title="Paid Subscriptions - Payment Gateway Settings" target="_blank" href="http://www.paidmembershipspro.com/support/initial-plugin-setup/payment-gateway/">Payment Gateway Settings</a>.', 'pmpro'); ?></p>
+		<p><?php _e('Learn more about <a title="Paid Subscriptions - SSL Settings" target="_blank" href="https://github.com/Seravo/wp-paid-subscriptions">SSL</a> or <a title="Paid Subscriptions - Payment Gateway Settings" target="_blank" href="https://github.com/Seravo/wp-paid-subscriptions">Payment Gateway Settings</a>.', 'pmpro'); ?></p>
 		
 		<table class="form-table">
 		<tbody>                		   
@@ -176,7 +176,7 @@
 			</tr>
 			<tr class="gateway gateway_paypalstandard" <?php if($gateway != "paypalstandard") { ?>style="display: none;"<?php } ?>>
 				<td colspan="2">
-					<strong><?php _e('Note', 'pmpro');?>:</strong> <?php _e('We do not recommend using PayPal Standard. We suggest using PayPal Express, Website Payments Pro (Legacy), or PayPal Pro (Payflow Pro). <a target="_blank" href="http://www.paidmembershipspro.com/2013/09/read-using-paypal-standard-paid-memberships-pro/">More information on why can be found here.</a>', 'pmpro');?>
+					<strong><?php _e('Note', 'pmpro');?>:</strong> <?php _e('We do not recommend using PayPal Standard. We suggest using PayPal Express, Website Payments Pro (Legacy), or PayPal Pro (Payflow Pro). <a target="_blank" href="https://github.com/Seravo/wp-paid-subscriptions">More information on why can be found here.</a>', 'pmpro');?>
 				</td>	
 			</tr>			
 			<tr>
@@ -449,7 +449,7 @@
 					<input type="text" id="tax_state" name="tax_state" size="4" value="<?php echo esc_attr($tax_state)?>" /> <small>(<?php _e('abbreviation, e.g. "PA"', 'pmpro');?>)</small>
 					&nbsp; Tax Rate:
 					<input type="text" id="tax_rate" name="tax_rate" size="10" value="<?php echo esc_attr($tax_rate)?>" /> <small>(<?php _e('decimal, e.g. "0.06"', 'pmpro');?>)</small>
-					<p><small><?php _e('US only. If values are given, tax will be applied for any members ordering from the selected state.<br />For non-US or more complex tax rules, use the <a target="_blank" href="http://www.paidmembershipspro.com/2013/10/non-us-taxes-paid-memberships-pro/">pmpro_tax filter</a>.', 'pmpro');?></small></p>
+					<p><small><?php _e('US only. If values are given, tax will be applied for any members ordering from the selected state.<br />For non-US or more complex tax rules, use the <a target="_blank" href="https://github.com/Seravo/wp-paid-subscriptions">pmpro_tax filter</a>.', 'pmpro');?></small></p>
 				</td>
 			</tr>
 			<tr class="gateway gateway_ gateway_stripe gateway_paypalexpress gateway_check gateway_paypalstandard gateway_braintree gateway_twocheckout gateway_cybersource gateway_payflowpro gateway_authorizenet gateway_paypal">
@@ -471,7 +471,7 @@
 				</th>
 				<td>
 					<textarea id="sslseal" name="sslseal" rows="3" cols="80"><?php echo stripslashes(esc_textarea($sslseal))?></textarea>
-					<br /><small>Your <strong><a target="_blank" href="http://www.paidmembershipspro.com/documentation/initial-plugin-setup/ssl/">SSL Certificate</a></strong> must be installed by your web host. Your <strong>SSL Seal</strong> will be a short HTML or JavaScript snippet that can be pasted here.</small>
+					<br /><small>Your <strong><a target="_blank" href="https://github.com/Seravo/wp-paid-subscriptions">SSL Certificate</a></strong> must be installed by your web host. Your <strong>SSL Seal</strong> will be a short HTML or JavaScript snippet that can be pasted here.</small>
 				</td>
 		   </tr>		   
 		   <tr>
