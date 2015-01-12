@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Paid Subscriptions\n"
-"POT-Creation-Date: 2015-01-12 13:05+0200\n"
-"PO-Revision-Date: 2015-01-12 13:25+0200\n"
+"POT-Creation-Date: 2015-01-12 13:30+0200\n"
+"PO-Revision-Date: 2015-01-12 13:31+0200\n"
 "Last-Translator: Onni Hakala <onni@koodimonni.fi>\n"
 "Language-Team: Onni Hakala <onni@koodimonni.fi>\n"
 "Language: fi\n"
@@ -1607,6 +1607,10 @@ msgstr "Viimeisin kirjautuminen"
 #: adminpages/reports/login.php:153
 msgid "Total Logins"
 msgstr "Kirjautumisten kokonaismäärä"
+
+#: adminpages/reports/login.php:191
+msgid "Never"
+msgstr "Ei koskaan"
 
 #: adminpages/reports/memberships.php:18 adminpages/reports/memberships.php:288
 msgid "Membership Stats"

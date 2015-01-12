@@ -188,7 +188,7 @@ function pmpro_report_login_page()
 									if($auser->enddate) 
 										echo date(get_option('date_format'), $auser->enddate);
 									else
-										echo "Never";
+										_e('Never', 'pmpro');
 								?>
 							</td>
 							<td><?php if(!empty($visits['last'])) echo $visits['last'];?></td>
