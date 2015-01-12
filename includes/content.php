@@ -298,8 +298,11 @@ function pmpro_membership_content_filter($content, $skipcheck = false)
 		$pmpro_content_message_pre = '<div class="pmpro_content_message">';
 		$pmpro_content_message_post = '</div>';
 
-		$sr_search = array("!!levels!!", "!!referrer!!");
-		$sr_replace = array(pmpro_implodeToEnglish($post_membership_levels_names), $_SERVER['REQUEST_URI']);
+		//List of shortcodes that you can use
+		$sr_search = array("!!levels!!", "!!referrer!!","!!login!!");
+
+		//List of shortcode replacements in same order
+		$sr_replace = array(pmpro_implodeToEnglish($post_membership_levels_names), $_SERVER['REQUEST_URI'], wp_login_url( get_permalink() ) );
 
 		//get the correct message to show at the bottom
 		if(is_feed())
