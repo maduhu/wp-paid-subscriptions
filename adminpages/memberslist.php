@@ -209,7 +209,7 @@
 									if($auser->enddate) 
 										echo apply_filters("pmpro_memberslist_expires_column", date(get_option('date_format'), $auser->enddate), $auser);
 									else
-										echo __(apply_filters("pmpro_memberslist_expires_column", "Never", $auser), "pmpro");
+										echo __(apply_filters("pmpro_memberslist_expires_column", __('Never', 'pmpro');, $auser), "pmpro");
 								?>
 							</td>
 						</tr>
