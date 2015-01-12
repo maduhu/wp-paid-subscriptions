@@ -141,16 +141,24 @@
 	</script>
 	
 	<?php
-		$settings_tabs = array("pmpro-membershiplevels", "pmpro-pagesettings", "pmpro-paymentsettings", "pmpro-emailsettings", "pmpro-advancedsettings", "pmpro-addons");
-		if(in_array($view, $settings_tabs))
+		//Set all default pages and allow them to be filtered and added
+		$settings_tabs = array(
+			"pmpro-membershiplevels" => __('Membership Levels', 'pmpro'),
+			"pmpro-pagesettings" => __('Pages', 'pmpro'),
+			"pmpro-paymentsettings" => __('Payment Gateway &amp; SSL', 'pmpro'),
+			"pmpro-emailsettings" => __('Email', 'pmpro'),
+			"pmpro-advancedsettings" => __('Advanced', 'pmpro'),
+			"pmpro-addons" => __('Add Ons', 'pmpro'),
+		);
+
+		$settings_tabs = apply_filters( 'pmpro_admin_settings_tabs', $settings_tabs);
+
+		if(array_key_exists($view, $settings_tabs))
 		{
 	?>
 	<h3 class="nav-tab-wrapper">
-		<a href="admin.php?page=pmpro-membershiplevels" class="nav-tab<?php if($view == 'pmpro-membershiplevels') { ?> nav-tab-active<?php } ?>"><?php _e('Membership Levels', 'pmpro');?></a>
-		<a href="admin.php?page=pmpro-pagesettings" class="nav-tab<?php if($view == 'pmpro-pagesettings') { ?> nav-tab-active<?php } ?>"><?php _e('Pages', 'pmpro');?></a>
-		<a href="admin.php?page=pmpro-paymentsettings" class="nav-tab<?php if($view == 'pmpro-paymentsettings') { ?> nav-tab-active<?php } ?>"><?php _e('Payment Gateway &amp; SSL', 'pmpro');?></a>
-		<a href="admin.php?page=pmpro-emailsettings" class="nav-tab<?php if($view == 'pmpro-emailsettings') { ?> nav-tab-active<?php } ?>"><?php _e('Email', 'pmpro');?></a>
-		<a href="admin.php?page=pmpro-advancedsettings" class="nav-tab<?php if($view == 'pmpro-advancedsettings') { ?> nav-tab-active<?php } ?>"><?php _e('Advanced', 'pmpro');?></a>	
-		<a href="admin.php?page=pmpro-addons" class="nav-tab<?php if($view == 'pmpro-addons') { ?> nav-tab-active<?php } ?>"><?php _e('Add Ons', 'pmpro');?></a>	
+		<?php foreach ($settings_tabs as $pageid => $menutext) { ?>
+			<a href="admin.php?page=<?php echo $pageid; ?>" class="nav-tab<?php if($view == $pageid) { ?> nav-tab-active<?php } ?>"><?php echo $menutext;?></a>
+		<?php } ?>
 	</h3>
 	<?php } ?>
