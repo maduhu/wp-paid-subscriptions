@@ -295,8 +295,13 @@ function pmpro_membership_content_filter($content, $skipcheck = false)
 		if(empty($post_membership_levels_names))
 			$post_membership_levels_names = array();
 
-		$pmpro_content_message_pre = '<div class="pmpro_content_message">';
-		$pmpro_content_message_post = '</div>';
+		if(pmpro_getOption("disabledefaultcss")) {
+			$pmpro_content_message_pre = '<div class="pmpro_content_message">';
+			$pmpro_content_message_post = '</div>';
+		} else {
+			$pmpro_content_message_pre = '';
+			$pmpro_content_message_post = '';
+		}
 
 		//List of shortcodes that you can use
 		$sr_search = array("!!levels!!", "!!referrer!!","!!login!!");
