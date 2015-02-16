@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Paid Subscriptions\n"
 "POT-Creation-Date: 2015-02-16 10:50+0200\n"
-"PO-Revision-Date: 2015-02-16 10:51+0200\n"
+"PO-Revision-Date: 2015-02-16 11:25+0200\n"
 "Last-Translator: Onni Hakala <onni@koodimonni.fi>\n"
 "Language-Team: Onni Hakala <onni@koodimonni.fi>\n"
 "Language: fi\n"
@@ -2268,7 +2268,7 @@ msgstr ""
 
 #: includes/metaboxes.php:99 includes/metaboxes.php:100
 msgid "Require Membership"
-msgstr ""
+msgstr "Vaadi Tilaus"
 
 #: includes/profile.php:36
 msgid "Current Level"
