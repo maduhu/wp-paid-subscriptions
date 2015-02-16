@@ -13,6 +13,7 @@
 		//other settings
 		pmpro_setOption("nonmembertext");
 		pmpro_setOption("notloggedintext");
+    pmpro_setOption("usedefaultcss"); //Allow disabling custom css
 		pmpro_setOption("rsstext");		
 		pmpro_setOption("filterqueries");
 		pmpro_setOption("showexcerpts");
@@ -50,6 +51,8 @@
     $filterqueries = pmpro_getOption('filterqueries');
 	$showexcerpts = pmpro_getOption("showexcerpts");
 	$hideadslevels = pmpro_getOption("hideadslevels");
+
+  $usecustomcss = pmpro_setOption("usedefaultcss"); //Allow disabling custom css
 	
 	if(is_multisite())
 		$redirecttosubscription = pmpro_getOption("redirecttosubscription");
@@ -115,7 +118,19 @@
 					<textarea name="rsstext" rows="3" cols="80"><?php echo stripslashes($rsstext)?></textarea><br />
 					<small class="litegray"><?php _e('This message replaces the post content in RSS feeds.', 'pmpro');?></small>
 				</td>
-			</tr> 
+			</tr>
+
+      <tr>
+        <th scope="row" valign="top">
+          <label for="usedefaultcss"><?php _e("Filter searches and archives?", 'pmpro');?></label>
+        </th>
+        <td>
+          <select id="usedefaultcss" name="usedefaultcss">
+            <option value="0" <?php if(!$usedefaultcss) { ?>selected="selected"<?php } ?>><?php _e('No - Use your styling instead.', 'pmpro');?></option>
+            <option value="1" <?php if($usedefaultcss == 1) { ?>selected="selected"<?php } ?>><?php _e('Yes - Use the default styling bundled with paid susbcriptions.', 'pmpro');?></option>  
+          </select>                        
+        </td>
+      </tr> 
 			
 			<tr>
 				<th scope="row" valign="top">
