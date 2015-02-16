@@ -13,7 +13,7 @@
 		//other settings
 		pmpro_setOption("nonmembertext");
 		pmpro_setOption("notloggedintext");
-    pmpro_setOption("usedefaultcss"); //Allow disabling custom css
+    pmpro_setOption("disabledefaultcss"); //Allow disabling custom css
 		pmpro_setOption("rsstext");		
 		pmpro_setOption("filterqueries");
 		pmpro_setOption("showexcerpts");
@@ -52,7 +52,7 @@
 	$showexcerpts = pmpro_getOption("showexcerpts");
 	$hideadslevels = pmpro_getOption("hideadslevels");
 
-  $usecustomcss = pmpro_setOption("usedefaultcss"); //Allow disabling custom css
+  $usecustomcss = pmpro_setOption("disabledefaultcss"); //Allow disabling custom css
 	
 	if(is_multisite())
 		$redirecttosubscription = pmpro_getOption("redirecttosubscription");
@@ -122,12 +122,12 @@
 
       <tr>
         <th scope="row" valign="top">
-          <label for="usedefaultcss"><?php _e("Filter searches and archives?", 'pmpro');?></label>
+          <label for="disabledefaultcss"><?php _e("Disable default css?", 'pmpro');?></label>
         </th>
         <td>
-          <select id="usedefaultcss" name="usedefaultcss">
-            <option value="0" <?php if(!$usedefaultcss) { ?>selected="selected"<?php } ?>><?php _e('No - Use your styling instead.', 'pmpro');?></option>
-            <option value="1" <?php if($usedefaultcss == 1) { ?>selected="selected"<?php } ?>><?php _e('Yes - Use the default styling bundled with paid susbcriptions.', 'pmpro');?></option>  
+          <select id="disabledefaultcss" name="disabledefaultcss">
+            <option value="0" <?php if(!$disabledefaultcss) { ?>selected="selected"<?php } ?>><?php _e('No - Use the default styling bundled with paid susbcriptions.', 'pmpro');?></option>
+            <option value="1" <?php if($disabledefaultcss == 1) { ?>selected="selected"<?php } ?>><?php _e('Yes - Use your styling instead.', 'pmpro');?></option>  
           </select>                        
         </td>
       </tr> 

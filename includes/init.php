@@ -37,7 +37,7 @@ function pmpro_init()
 	}
 	else
 	{
-		if(pmpro_getOption("usedefaultcss")) {
+		if(!pmpro_getOption("disabledefaultcss")) {
 			$frontend_css_rtl = false;
 			if(file_exists(get_stylesheet_directory() . "/paid-memberships-pro/css/frontend.css")) {
 				$frontend_css = get_stylesheet_directory_uri() . "/paid-memberships-pro/css/frontend.css";

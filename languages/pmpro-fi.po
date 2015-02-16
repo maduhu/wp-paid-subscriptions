@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Paid Subscriptions\n"
-"POT-Creation-Date: 2015-01-12 13:30+0200\n"
-"PO-Revision-Date: 2015-01-12 13:31+0200\n"
+"POT-Creation-Date: 2015-02-16 10:50+0200\n"
+"PO-Revision-Date: 2015-02-16 10:51+0200\n"
 "Last-Translator: Onni Hakala <onni@koodimonni.fi>\n"
 "Language-Team: Onni Hakala <onni@koodimonni.fi>\n"
 "Language: fi\n"
@@ -116,44 +116,44 @@ msgstr ""
 msgid "Plugin Support"
 msgstr "Lisäosan tuki"
 
-#: adminpages/admin_header.php:149 adminpages/membershiplevels.php:525
+#: adminpages/admin_header.php:146 adminpages/membershiplevels.php:525
 #: adminpages/pagesettings.php:69 includes/adminpages.php:64
 #: includes/adminpages.php:65 includes/adminpages.php:107
 msgid "Membership Levels"
 msgstr "Tilaajatasot"
 
-#: adminpages/admin_header.php:150 adminpages/pagesettings.php:120
+#: adminpages/admin_header.php:147 adminpages/pagesettings.php:120
 msgid "Pages"
 msgstr "Sivut"
 
-#: adminpages/admin_header.php:151
+#: adminpages/admin_header.php:148
 msgid "Payment Gateway &amp; SSL"
 msgstr "Maksuväylä &amp; SSL"
 
-#: adminpages/admin_header.php:152 adminpages/memberslist.php:148
+#: adminpages/admin_header.php:149 adminpages/memberslist.php:148
 #: pages/account.php:56
 msgid "Email"
 msgstr "Sähköposti"
 
-#: adminpages/admin_header.php:153
+#: adminpages/admin_header.php:150
 msgid "Advanced"
 msgstr "Lisäasetukset"
 
-#: adminpages/admin_header.php:154 includes/adminpages.php:52
+#: adminpages/admin_header.php:151 includes/adminpages.php:52
 #: includes/adminpages.php:142
 msgid "Add Ons"
 msgstr "Lisäosat"
 
-#: adminpages/advancedsettings.php:43
+#: adminpages/advancedsettings.php:44
 msgid "Your advanced settings have been updated."
 msgstr "Lisäasetukset on päivitetty."
 
-#: adminpages/advancedsettings.php:68
+#: adminpages/advancedsettings.php:71
 #, php-format
 msgid "This content is for !!levels!! members only. <a href=\"%s\">Register here</a>."
 msgstr "Tämä sisältö on vain tilaajille. <a href=\"%s\">Rekisteröidy tästä</a>."
 
-#: adminpages/advancedsettings.php:73
+#: adminpages/advancedsettings.php:76
 #, php-format
 msgid ""
 "Please <a href=\"%s\">login</a> to view this content. (<a href=\"%s\">Register "
@@ -162,139 +162,151 @@ msgstr ""
 "<a href=\"%s\">Kirjaudu sisään</a> lukeaksesi sisällön. (<a href=\"%s\">Tai "
 "rekisteröidy täältä</a>.)"
 
-#: adminpages/advancedsettings.php:78
+#: adminpages/advancedsettings.php:81
 msgid "This content is for members only. Visit the site and log in/register to read."
 msgstr "Tämä sisältö on vain tilaajille. Kirjaudu sisään lukeaksesi artikkelin."
 
-#: adminpages/advancedsettings.php:88 includes/adminpages.php:51
+#: adminpages/advancedsettings.php:91 includes/adminpages.php:51
 #: includes/adminpages.php:135
 msgid "Advanced Settings"
 msgstr "Lisäasetukset"
 
-#: adminpages/advancedsettings.php:94
+#: adminpages/advancedsettings.php:97
 msgid "Message for Logged-in Non-members"
 msgstr "Viesti sisäänkirjautuneille ei-tilaajille"
 
-#: adminpages/advancedsettings.php:98
+#: adminpages/advancedsettings.php:101
 msgid "This message replaces the post content for non-members. Available variables"
 msgstr ""
 "Tämä viesti korvaa artikkelin sisällön ei-tilaajille. Käytettävissä olevat muuttujat"
 
-#: adminpages/advancedsettings.php:103
+#: adminpages/advancedsettings.php:106
 msgid "Message for Logged-out Users"
 msgstr "Viesti kirjautumattomille käyttäjille"
 
-#: adminpages/advancedsettings.php:107
+#: adminpages/advancedsettings.php:110
 msgid "This message replaces the post content for logged-out visitors."
 msgstr "Tämä viesti korvaa artikkelin sisällön kirjautumattomille käyttäjille"
 
-#: adminpages/advancedsettings.php:112
+#: adminpages/advancedsettings.php:115
 msgid "Message for RSS Feed"
 msgstr "Viesti RSS-feediin"
 
-#: adminpages/advancedsettings.php:116
+#: adminpages/advancedsettings.php:119
 msgid "This message replaces the post content in RSS feeds."
 msgstr "﻿Tämä viesti korvaa artikkelin sisällön RSS-syötteissä."
 
-#: adminpages/advancedsettings.php:122
+#: adminpages/advancedsettings.php:125
+msgid "Disable default css?"
+msgstr "Poista oletustyylit käytöstä?"
+
+#: adminpages/advancedsettings.php:129
+msgid "No - Use the default styling bundled with paid susbcriptions."
+msgstr "Ei - Käytä paid subscriptions -lisäosan mukana tulevia tyylejä."
+
+#: adminpages/advancedsettings.php:130
+msgid "Yes - Use your styling instead."
+msgstr "Kyllä - Käytä omia css-sääntöjä sen sijaan."
+
+#: adminpages/advancedsettings.php:137
 msgid "Filter searches and archives?"
 msgstr "Piilota artikkelit hauista ja arkistoista?"
 
-#: adminpages/advancedsettings.php:126
+#: adminpages/advancedsettings.php:141
 msgid "No - Non-members will see restricted posts/pages in searches and archives."
 msgstr "Ei - Kaikki käyttäjät näkevät kaikki artikkelit/sivut hauissa ja arkistoissa."
 
-#: adminpages/advancedsettings.php:127
+#: adminpages/advancedsettings.php:142
 msgid "Yes - Only members will see restricted posts/pages in searches and archives."
 msgstr ""
 "Kyllä - Vain tilaajat näkevät rajoitetut artikkelit/sivut hauissa ja arkistoissa."
 
-#: adminpages/advancedsettings.php:133
+#: adminpages/advancedsettings.php:148
 msgid "Show Excerpts to Non-Members?"
 msgstr "Näytä ote artikkelista Ei-tilaajille?"
 
-#: adminpages/advancedsettings.php:137
+#: adminpages/advancedsettings.php:152
 msgid "No - Hide excerpts."
 msgstr "Ei - Piilota otteet artikkelista."
 
-#: adminpages/advancedsettings.php:138
+#: adminpages/advancedsettings.php:153
 msgid "Yes - Show excerpts."
 msgstr "Kyllä - Näytä ote artikkelista."
 
-#: adminpages/advancedsettings.php:148 adminpages/advancedsettings.php:207
-#: adminpages/advancedsettings.php:219 adminpages/membershiplevels.php:598
+#: adminpages/advancedsettings.php:163 adminpages/advancedsettings.php:222
+#: adminpages/advancedsettings.php:234 adminpages/membershiplevels.php:598
 #: adminpages/paymentsettings.php:436 adminpages/paymentsettings.php:461
 #: includes/profile.php:123
 msgid "No"
 msgstr "Ei"
 
-#: adminpages/advancedsettings.php:149
+#: adminpages/advancedsettings.php:164
 msgid "Hide Ads From All Members"
 msgstr "﻿Piilota mainokset kaikilta tilaajilta"
 
-#: adminpages/advancedsettings.php:150
+#: adminpages/advancedsettings.php:165
 msgid "Hide Ads From Certain Members"
 msgstr "Piilota mainokset tietyiltä tilaajilta"
 
-#: adminpages/advancedsettings.php:157
+#: adminpages/advancedsettings.php:172
 msgid "Ads from the following plugins will be automatically turned off"
 msgstr "Seuraavien lisäosien mainokset kytketään automaattisesti pois"
 
-#: adminpages/advancedsettings.php:158
+#: adminpages/advancedsettings.php:173
 msgid "To hide ads in your template code, use code like the following"
 msgstr ""
 
-#: adminpages/advancedsettings.php:169
+#: adminpages/advancedsettings.php:184
 msgid "Choose Levels to Hide Ads From"
 msgstr "﻿Valitse tilaajatasot joilta piilotetaan mainokset"
 
-#: adminpages/advancedsettings.php:203
+#: adminpages/advancedsettings.php:218
 msgid "Redirect all traffic from registration page to /susbcription/?"
 msgstr ""
 
-#: adminpages/advancedsettings.php:203
+#: adminpages/advancedsettings.php:218
 msgid "multisite only"
 msgstr "vain multisite"
 
-#: adminpages/advancedsettings.php:208 adminpages/membershiplevels.php:598
+#: adminpages/advancedsettings.php:223 adminpages/membershiplevels.php:598
 #: adminpages/paymentsettings.php:437 adminpages/paymentsettings.php:462
 #: includes/profile.php:124
 msgid "Yes"
 msgstr "Kyllä"
 
-#: adminpages/advancedsettings.php:215
+#: adminpages/advancedsettings.php:230
 msgid "Use reCAPTCHA?"
 msgstr "Ota käyttöön reCAPTCHA?"
 
-#: adminpages/advancedsettings.php:220
+#: adminpages/advancedsettings.php:235
 msgid "Yes - Free memberships only."
 msgstr "Kyllä - Vain maksuttomille tilaajille"
 
-#: adminpages/advancedsettings.php:221
+#: adminpages/advancedsettings.php:236
 msgid "Yes - All memberships."
 msgstr "Kyllä - Kaikille tilaajille"
 
-#: adminpages/advancedsettings.php:223
+#: adminpages/advancedsettings.php:238
 msgid "A free reCAPTCHA key is required."
 msgstr "Tarvitset ilmaisen reCAPTCHA avaimen."
 
-#: adminpages/advancedsettings.php:223
+#: adminpages/advancedsettings.php:238
 msgid "Click here to signup for reCAPTCHA"
 msgstr "﻿Klikkaa tästä rekisteröidäksesi reCAPTCHA:n"
 
-#: adminpages/advancedsettings.php:229
+#: adminpages/advancedsettings.php:244
 msgid "reCAPTCHA Public Key"
 msgstr "reCAPTCHA Julkinen Avain"
 
-#: adminpages/advancedsettings.php:232
+#: adminpages/advancedsettings.php:247
 msgid "reCAPTCHA Private Key"
 msgstr "reCAPTCHA Salainen Avain﻿"
 
-#: adminpages/advancedsettings.php:238
+#: adminpages/advancedsettings.php:253
 msgid "Require Terms of Service on signups?"
 msgstr "﻿Vaadi käyttöehdot rekisteröitymisen yhteydessä?"
 
-#: adminpages/advancedsettings.php:245
+#: adminpages/advancedsettings.php:260
 msgid ""
 "If yes, create a WordPress page containing your TOS agreement and assign it using "
 "the dropdown above."
@@ -302,11 +314,11 @@ msgstr ""
 "Mikäli valitsit kyllä, luo Wordpress-sivu, joka sisältää käyttöehtosopimukset ja "
 "valitse se käyttämällä ylläolevaa pudotuslaatikkoa."
 
-#: adminpages/advancedsettings.php:285
+#: adminpages/advancedsettings.php:300
 msgid "selected"
 msgstr "﻿valittu"
 
-#: adminpages/advancedsettings.php:368 adminpages/pagesettings.php:251
+#: adminpages/advancedsettings.php:383 adminpages/pagesettings.php:251
 #: adminpages/paymentsettings.php:534
 msgid "Save Settings"
 msgstr "Tallenna asetukset"
@@ -908,6 +920,10 @@ msgstr "Liittyi"
 msgid "Ended"
 msgstr "﻿Päättynyt"
 
+#: adminpages/memberslist.php:212 adminpages/reports/login.php:191
+msgid "Never"
+msgstr "Ei koskaan"
+
 #: adminpages/memberslist.php:223 adminpages/reports/login.php:210
 msgid "No members found."
 msgstr "Tilaajia ei löytynyt."
@@ -1171,7 +1187,7 @@ msgstr ""
 msgid "User"
 msgstr "Käyttäjä"
 
-#: adminpages/orders.php:904 includes/init.php:218 includes/profile.php:27
+#: adminpages/orders.php:904 includes/init.php:220 includes/profile.php:27
 #: pages/checkout.php:35 pages/confirmation.php:47 pages/confirmation.php:64
 #: pages/confirmation.php:105 pages/invoice.php:28 pages/invoice.php:51
 msgid "Membership Level"
@@ -1607,10 +1623,6 @@ msgstr "Viimeisin kirjautuminen"
 #: adminpages/reports/login.php:153
 msgid "Total Logins"
 msgstr "Kirjautumisten kokonaismäärä"
-
-#: adminpages/reports/login.php:191
-msgid "Never"
-msgstr "Ei koskaan"
 
 #: adminpages/reports/memberships.php:18 adminpages/reports/memberships.php:288
 msgid "Membership Stats"
@@ -2220,7 +2232,7 @@ msgstr "Rekisteröidy !!name!!ksi nyt"
 msgid "Please specify a level id."
 msgstr ""
 
-#: includes/init.php:233 includes/profile.php:39
+#: includes/init.php:235 includes/profile.php:39
 msgid "None"
 msgstr "﻿Ei mitään"
 
